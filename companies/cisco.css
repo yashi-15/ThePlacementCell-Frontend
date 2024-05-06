@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: o;
+    border: border-box;
+}
+.frontend{
+    width: 700px;
+    position: absolute;
+    top: 190px;
+    left: 680px;
+    line-height: 20px;
+}
+.sde{
+    width: 700px;
+    position: absolute;
+    top: 680px;
+    left: 680px;
+    line-height: 20px;
+}
+.fsd{
+    width: 700px;
+    position: absolute;
+    top: 1170px;
+    left: 680px;
+    line-height: 20px;
+}
+.companylogo{
+    height: 170px;
+    width: 360px;
+    background-image: url(/assets/cisco-logo.png);
+    background-size: cover;
+    position: absolute;
+    top: 0px;
+    left: 870px;
+}

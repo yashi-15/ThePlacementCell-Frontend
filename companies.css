@@ -1,0 +1,453 @@
+*{
+    margin: 0px;
+    font-family: Arial;
+    border: border-box;
+    padding: 0px;
+}
+a{
+    text-decoration: none;
+}
+main h1{
+    height: 100px;
+    width: 1255px;
+    background-color: #CD2023;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50px;
+    margin-left: 100px;
+}
+.microsoft{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.microsoft-logo{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    background-image: url(/assets/Microsoft.png);
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+}
+.role1{
+    height: 300px;
+    width: 350px;
+    margin: 30px 30px 30px 10px;
+    color: rgb(212, 212, 212);
+}
+.role1 h2{
+    text-align: center;
+    font-size: 50px;
+}
+.role1 p{
+    text-align: start;
+    padding-top: 15px;
+    font-size: 30px;
+}
+.facebook{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.facebook-logo{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    background-image: url(/assets/fb.png);
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+}
+.tcs{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.tcs-logo{
+    height: 200px;
+    width: 450px;
+    margin: 20px;
+    background-image: url(/assets/tcs.jpeg);
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+}
+.wipro{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.wipro-logo{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    background-image: url(/assets/wipro.png);
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+}
+.netflix{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.netflix-logo{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    background-image: url(/assets/Netflix.png);
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+}
+.google{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.google-logo{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    background-image: url(/assets/google.png);
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+}
+.amazon{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.amazon-logo{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    background-image: url(/assets/amazon.png);
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+}
+.apple{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.apple-logo{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    background-image: url(/assets/apple.png);
+    background-size: contain;
+    background-color: white;
+    border-radius: 20px;
+}
+.deloitte{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.deloitte-logo{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    background-image: url(/assets/deloitte.png);
+    background-size: contain;
+    background-color: white;
+    border-radius: 20px;
+}
+.cisco{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.cisco-logo{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    background-image: url(/assets/cisco.png);
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+}
+.adobe{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.adobe-logo{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    background-image: url(/assets/adobe.png);
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+
+}
+.infosys{
+    height: 250px;
+    width: 500px;
+    background-color: #003049;
+    margin-top: 42px;
+    display: flex;
+}
+.infosys-logo{
+    height: 200px;
+    width: 350px;
+    margin: 20px;
+    background-image: url(/assets/infosys.webp);
+    background-size: cover;
+    background-color: white;
+    border-radius: 20px;
+
+}
+
+
+
+
+.hiring_companies{
+    width: 1455px;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-around;
+}
+main{
+    height: 1900px;
+
+}
+
+
+/*footer */
+.bg-blur{
+    height: 600px;
+    width: 1455px;
+    background-image: url(/assets/footer-bg.png);
+    background-size: cover;
+    opacity: 0.6;
+    position: absolute;
+    top: 1987px;
+}
+.footer-line1{
+    position: absolute;
+    top: 1987px;
+    height: 394px;
+    width: 3px;
+    background-color: black;
+    margin-left: 107px;
+    margin-top: 44px;
+}
+.footer-line2{
+    position: absolute;
+    top: 2425px;
+    height: 42px;
+    width: 42px;
+    margin-left: 83px;
+    border: 4px solid black;
+    border-radius: 50%;
+}
+.footer-line3{
+    position: absolute;
+    top: 2389px;
+    height: 3px;
+    width: 1315px;
+    background-color: black;
+    margin-left: 140px;
+    margin-top: 44px;
+}
+.credit{
+    position: absolute;
+    top: 2549px;
+    font-size: 25px;
+    color: black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: red;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.credit a{
+    font-size: 25px;
+    color: black;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: red;
+    text-decoration: none;
+    margin-left: 10px;
+}
+.copyright{
+    position: absolute;
+    top: 2449px;
+    font-size: 25px;
+    margin-left: 150px;
+}
+.foot-img1{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 2446px;
+    margin-left: 1380px;
+    background-color: white;
+    border-radius: 10px;
+    background-image: url(/assets//Social/twitter.png);
+    background-size: cover;
+}
+.foot-img2{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 2446px;
+    margin-left: 1300px;
+    background-image: url(/assets/Social/instagram.png);
+    background-size: cover;
+}
+.foot-img3{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 2446px;
+    margin-left: 1220px;
+    background-image: url(/assets/Social/whatsapp.png);
+    background-size: cover;
+}
+.foot-img4{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 2446px;
+    margin-left: 1140px;
+    background-image: url(/assets/Social/facebook.png);
+    background-size: cover;
+}
+.foot-img5{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 2446px;
+    margin-left: 1060px;
+    background-image: url(/assets/Social/youtube.png);
+    background-size: cover;
+}
+.foot-img6{
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 2446px;
+    margin-left: 980px;
+    background-image: url(/assets//Social/linkedin.png);
+    background-size: cover;
+}
+.foot-logo{
+    height: 80px;
+    width: 60px;
+    position: absolute;
+    top: 2049px;
+    margin-left: 135px;
+    background-image: url(/assets/logoAcem.png);
+    background-size: cover;
+    transform: scale(1.5);
+}
+.foot-logo-txt1{
+    font-size: 25px;
+    width: 300px;
+    color: #CD2023;
+    text-align: center;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.foot-logo-txt2{
+    font-size: 25px;
+    width: 300px;
+    color: #CD2023;
+    text-align: center;
+    margin-left: 20px;
+}
+.contact-us{
+    height: 130px;
+    width: 500px;
+    position: absolute;
+    top: 2129px;
+    margin-left: 120px;
+    font-size: 25px;
+    line-height: 40px;
+
+}
+iframe{
+    margin-left: 30px;
+    padding-top: 15px;
+}
+.foot-panel{
+    height: 350px;
+    width: 850px;
+    position: absolute;
+    top: 2049px;
+    display: flex;
+    justify-content: space-evenly;
+
+    margin-left: 600px;
+}
+.text-big{
+    font-size: 40px;
+}
+.text-medium{
+    font-size: 25px;
+}
+.text-small{
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+    line-height: 23px;
+}
+.text-s{
+    font-size: 22px;
+    text-decoration: none;
+    color: black;
+    line-height: 40px;
+}
+.microsoft-txt{
+    color: black;
+    font-size: 48px;
+    margin-top: 100px;
+    margin-left: 70px;
+}
+.facebook-txt{
+    color: black;
+    font-size: 48px;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.adobe-txt{
+    color: black;
+    font-size: 48px;
+    margin-top: 70px;
+    margin-left: 80px;
+}
+.flipkart-txt{
+    color: black;
+    font-size: 48px;
+    margin-top: 70px;
+    margin-left: 80px;
+}
